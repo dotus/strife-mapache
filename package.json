@@ -1,7 +1,6 @@
 {
-  "name": "mapache-godofredoninja",
+  "name": "strife-mapache",
   "description": "mapache theme for ghost by @GodoFredoNinja",
-  "demo": "https://godofredo.ninja",
   "version": "3.1.2",
   "engines": {
     "ghost": ">=4.0.0",
@@ -29,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/godofredoninja/mapache"
+    "url": "https://github.com/dotus/strife-mapache"
   },
   "bugs": {
     "url": "https://github.com/godofredoninja/mapache/issues",
