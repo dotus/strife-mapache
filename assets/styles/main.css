@@ -320,7 +320,8 @@ html[data-theme=dark] {
     --header-color-hover: #bbb;
     --header-menu-color: #eee;
     --header-menu-color-hover: #bbb;
-    --header-bg-color: #16112b;
+    --header-bg-color: #100f15
+;
     --header-logo-color: #fff;
     --hr-bg: #444;
     --figcaption-color: #888;
@@ -332,7 +333,8 @@ html[data-theme=dark] {
     --search-bg-link: #444;
     --search-bg-link-hover: #333;
     --search-color-message: #bbb;
-    --sidebar-post-bg: #16112b;
+    --sidebar-post-bg: #100f15
+;
     --sidebar-post-border-color: #444;
     --border-bottom-color: hsla(0, 0%, 100%, 0.1);
     --sidenav-bg: #333;
@@ -341,7 +343,8 @@ html[data-theme=dark] {
     --story-color: #fff;
     --story-more-link-color: #888;
     --story-more-link-border: hsla(0, 0%, 62.7%, 0.15);
-    --fashion-featured-bg: #16112b;
+    --fashion-featured-bg: #100f15
+;
     --drop-bg-color: #333;
     --drop-color-link: #eee;
     --drop-color-link-hover: #bbb;
@@ -350,17 +353,20 @@ html[data-theme=dark] {
     --post-excerpt-color: #888;
     --post-link-border: #444;
     --mobile-share-bg: #444;
-    --bookmark-bg: #16112b;
+    --bookmark-bg: #100f15
+;
     --bookmark-meta-color: #eee;
     --bookmark-border-color: #444;
-    --member-plan-bg: #16112b;
+    --member-plan-bg: #100f15
+;
     --member-plan-border: #444;
     --member-color: #eee;
     --archive-author-bg-img: #888
 }
 
 html[data-theme=dark] body {
-    background-color: #16112b;
+    background-color: #100f15
+;
     color: #eee
 }
 
@@ -397,7 +403,8 @@ html[data-theme=dark] .button--line {
 }
 
 html[data-theme=dark] .witget-subscribe {
-    background-color: #16112b;
+    background-color: #100f15
+;
     border-color: #444;
     color: #eee
 }
@@ -460,7 +467,8 @@ html[data-theme=dark] .is-contact .contact-stain {
 }
 
 html[data-theme=dark] .godo-ne {
-    background-color: #16112b;
+    background-color: #100f15
+;
     border-color: #444
 }
 
@@ -1660,7 +1668,8 @@ p {
     -webkit-box-flex: 1;
     flex: 1;
     margin-right: 20px;
-    background-color: #16112b;
+    background-color: #100f15
+;
     color: #bbb;
     border-color: transparent
 }
