@@ -1628,7 +1628,7 @@ p {
 }
 
 .footer {
-    background-color: #111;
+    background-color:  #383449;
     padding: 5vw 0
 }
 
@@ -1668,8 +1668,7 @@ p {
     -webkit-box-flex: 1;
     flex: 1;
     margin-right: 20px;
-    background-color: #383449;
-
+    background-color: #100f15
 ;
     color: #bbb;
     border-color: transparent
