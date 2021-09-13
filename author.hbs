@@ -30,12 +30,12 @@
 
             {{!-- Facebook and Twitter --}}
             <div class="author-follow buttonSet">
-                {{#if facebook}}<a class="button u-borderRadius2 u-fontSizeSmall fb" href="{{facebook_url}}" title="Facebook" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-facebook"></use></svg> Facebook</a>{{/if}}
+                {{!-- {{#if facebook}}<a class="button u-borderRadius2 u-fontSizeSmall fb" href="{{facebook_url}}" title="Facebook" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-facebook"></use></svg> Facebook</a>{{/if}} --}}
                 {{#if twitter}}<a class="button u-borderRadius2 u-fontSizeSmall tw" href="{{twitter_url}}" title="{{twitter}}" target="_blank" rel="noopener noreferrer"><svg class="icon"><use xlink:href="#icon-twitter"></use></svg> Twitter</a>{{/if}}
-                <a class="button u-borderRadius2 u-fontSizeSmall rs" href="https://feedly.com/i/subscription/feed/{{url absolute="true"}}rss/" target="_blank" rel="noopener noreferrer">
+                {{!-- <a class="button u-borderRadius2 u-fontSizeSmall rs" href="https://feedly.com/i/subscription/feed/{{url absolute="true"}}rss/" target="_blank" rel="noopener noreferrer">
                     <svg class="icon"><use xlink:href="#icon-rss"></use></svg>
                     {{plural ../pagination.total empty=(t "No posts") singular=(t "1 post") plural=(t "% posts")}}
-                </a>
+                </a> --}}
             </div>
         </div>
     </div>
