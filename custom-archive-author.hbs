@@ -9,7 +9,9 @@
 
 <div class="archive-author-inner u-container u-maxWidth1000 u-marginBottom40">
     <div class="row">
-        {{#get "authors" filter="author:-[strife]" limit="all"}}{{#foreach authors}}
+        {{#get "authors" limit="all"}}{{#foreach authors}}
+
+        {{^has author="Strife"}}
 
             <div class="col col-s12 s6 l4 u-flexColumnTop u-marginBottom40">
                 <article class="author-card u-relative u-flexColumnTop u-flex--1">
@@ -30,20 +32,20 @@
                             {{!-- Name --}}
                             <h2 class="author-card-name u-marginTop20 u-fontSize22 u-marginBottom10"><a href="{{url}}" class="u-block">{{name}}</a></h2>
                             {{!-- Website --}}
-                            {{#if website}}<a href="{{website}}" class="author-card-website u-fontSize15 u-block u-marginBottom10" target="_blank" rel="noopener noreferrer">{{website}}</a>{{/if}}
+                            {{!-- {{#if website}}<a href="{{website}}" class="author-card-website u-fontSize15 u-block u-marginBottom10" target="_blank" rel="noopener noreferrer">{{website}}</a>{{/if}} --}}
                             {{!-- Biography --}}
                             {{#if bio}}<p class="author-card-bio u-fontSizeSmall">{{bio}}</p>{{/if}}
                         </div>
 
                         {{!-- Buttons Social Media--}}
                         <div class="author-card-media u-flex">
-                            {{#if facebook}}<a href="{{facebook_url}}" class="button button--line" title="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a>{{/if}}
+                            {{!-- {{#if facebook}}<a href="{{facebook_url}}" class="button button--line" title="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a>{{/if}} --}}
                             {{#if twitter}}<a href="{{twitter_url}}" class="button button--line" title="{{twitter}}" target="_blank" rel="noopener noreferrer">Twitter</a>{{/if}}
                         </div>
                     </div>
                 </article>
             </div>
-
+        {{/has}}
         {{/foreach}}{{/get}}
 
     </div>
