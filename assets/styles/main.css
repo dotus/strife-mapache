@@ -253,7 +253,7 @@ summary {
 }
 
 :root {
-    --composite-color: #00469b;
+    --composite-color: #fecd35;
     --composite-color-hover: #487ec0;
     --header-color: #111;
     --header-color-hover: #555;
@@ -261,7 +261,7 @@ summary {
     --header-menu-color-hover: #555;
     --header-bg-color: #fff;
     --header-logo-color: #000;
-    --newsletter-color: #00469b;
+    --newsletter-color: #fecd35;
     --gray--500: #84858a;
     --gray--600: #707177;
     --gray--900: #2d2e34;
