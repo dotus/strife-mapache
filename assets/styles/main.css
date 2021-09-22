@@ -150,7 +150,7 @@ textarea {
 }
 
 details {
-    display: block
+    display: block;
 }
 
 summary {
@@ -3646,7 +3646,7 @@ body.has-comments .post-comments {
 }
 
 .spc-h-e {
-    color: #100f15;
+    color: #fecd35;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: .3125rem;
@@ -3663,9 +3663,8 @@ body.has-comments .post-comments {
 
 .spc-des em {
     font-style: italic;
-    color: #100f15
+    color: #fecd35;
 }
-
 .spc-buttons .button {
     background: hsla(0, 0%, 100%, .9);
     border-radius: 35px;
