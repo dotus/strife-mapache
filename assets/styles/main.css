@@ -3153,7 +3153,7 @@ body.has-comments .post-comments {
 
 .fashion-featured .h-cover-header {
     background-color: var(--fashion-featured-bg);
-    /* right: 18%; */
+    right: 50%;
     padding: 15px 20px 0 0
 }
 
