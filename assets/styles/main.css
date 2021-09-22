@@ -253,7 +253,7 @@ summary {
 }
 
 :root {
-    --composite-color: #fecd35;
+    --composite-color: #100f15;
     --composite-color-hover: #487ec0;
     --header-color: #111;
     --header-color-hover: #555;
@@ -261,7 +261,7 @@ summary {
     --header-menu-color-hover: #555;
     --header-bg-color: #fff;
     --header-logo-color: #000;
-    --newsletter-color: #fecd35;
+    --newsletter-color: #100f15;
     --gray--500: #84858a;
     --gray--600: #707177;
     --gray--900: #2d2e34;
@@ -3646,7 +3646,7 @@ body.has-comments .post-comments {
 }
 
 .spc-h-e {
-    color: #fecd35;
+    color: #100f15;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: .3125rem;
@@ -3663,7 +3663,7 @@ body.has-comments .post-comments {
 
 .spc-des em {
     font-style: italic;
-    color: #fecd35
+    color: #100f15
 }
 
 .spc-buttons .button {
